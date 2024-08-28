@@ -8,3 +8,8 @@ resource "aws_instance" "terra" {
     Name = "terra"
   }
 }
+
+resource "aws_s3_bucket" "dev" {
+  bucket = "devhema"
+  
+}
